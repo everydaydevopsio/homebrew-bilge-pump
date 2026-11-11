@@ -1,22 +1,14 @@
-# Homebrew Cache Cleaner Tap
+# Homebrew Bilge Pump Tap
 
-Official Homebrew tap for [cache-cleaner](https://github.com/markcallen/cache-cleaner) tools.
+Official Homebrew tap for [Bilge Pump](https://github.com/everydaydevopsio/bilge-pump).
 
 ## Installation
 
 ```bash
-brew tap markcallen/cache-cleaner
-brew install cache-cleaner
+brew tap everydaydevopsio/bilge-pump
+brew install --cask bilge
 ```
 
-## What's Included
+Installing `bilge` provides the Bilge cleanup command and its platform utilities, including `dev-cache`, `git-cleaner`, and `bilge-macos` on macOS.
 
-Installing `cache-cleaner` provides three utilities:
-
-- **dev-cache** - Scans for project cache directories (node_modules, .venv, target, etc.)
-- **git-cleaner** - Finds and optimizes .git directories
-- **mac-cache-cleaner** - Runs safe cleanup commands for developer tools
-
-## Documentation
-
-For detailed documentation, visit: https://github.com/markcallen/cache-cleaner
+For usage and configuration, see the [Bilge Pump documentation](https://github.com/everydaydevopsio/bilge-pump).
