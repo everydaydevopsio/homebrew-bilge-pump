@@ -7,25 +7,25 @@ cask "bilge" do
     binary "bilge-linux"
   end
 
-  version "2.2.2"
+  version "2.2.3"
 
   on_macos do
     on_arm do
-      sha256 "7ef45bb348c411964bde7dbc4de2b4a60b9113efe8f9a3fe82c4b6749b9c81ec"
+      sha256 "fb01609a8c5ad402282dc2e3deebf516562097610d54ea169be412aa88bf5786"
       url "https://github.com/everydaydevopsio/bilge-pump/releases/download/v#{version}/bilge-#{version}-darwin-arm64.tar.gz"
     end
     on_intel do
-      sha256 "a2622bc127d9b73fe701e7c57341ccf69864130c3e91c715b84882595de0cd4a"
+      sha256 "44faadfc26eea5e6a13d8f46e15ba5eee8df09e92be769314d54197aed1b9117"
       url "https://github.com/everydaydevopsio/bilge-pump/releases/download/v#{version}/bilge-#{version}-darwin-amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "7d45afa8fdc92f596b3ea1a52dd85920795b0bc5fdd0d40630f859b6e54ac6cb"
+      sha256 "0e271d3ebfee19449501147459afc2b413906f3297f99905df74492a3442f922"
       url "https://github.com/everydaydevopsio/bilge-pump/releases/download/v#{version}/bilge-#{version}-linux-arm64.tar.gz"
     end
     on_intel do
-      sha256 "1c30e52d1e15248082ba190251af46502dc62cf8968a4affdcae61a804c0a0aa"
+      sha256 "72c322b5fe7a88abad544e580100bb6821b3cdd5200349a5cdfb703fd466a015"
       url "https://github.com/everydaydevopsio/bilge-pump/releases/download/v#{version}/bilge-#{version}-linux-amd64.tar.gz"
     end
   end
